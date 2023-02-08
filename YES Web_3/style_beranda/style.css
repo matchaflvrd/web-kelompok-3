@@ -1,0 +1,347 @@
+
+/* BAGIAN 1 */
+
+.bagian1 {
+  width: 100%;
+  height: 100%;
+  background-image: url('tugu-pahlawan.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container11 {
+  text-align: left;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.logobg1 {
+  width: 100px;
+  height: auto;
+  margin-right: 550px;
+  margin-left: 100px;
+}
+
+.menu { 
+  list-style: none;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 12px;
+  display: inline;
+  float: right;
+  text-align: right;
+  color: 
+aquamarine;
+}
+
+ul {
+  text-align: right;
+  position: absolute;
+}
+
+li {
+  float: left;
+  padding: 5px;
+}
+a:link {
+  color: 
+aliceblue;
+  text-decoration: none;
+}
+a:hover {
+  color: 
+black;
+}
+
+.Body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 50px;
+  color: 
+aliceblue;
+}
+
+h3 {
+  font-size: 25px;
+  color: 
+aliceblue;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 400;
+  word-spacing: 2px;
+  color: 
+aliceblue;
+}
+
+.container12 {
+  justify-content: center;
+  text-align: center;
+  padding-left: 10px;
+  margin-top: 100px;
+  padding-bottom: 200px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.iconbg11 {
+  padding: 0px 10px 0px 10px;
+  margin: 0px 50px 0px 50px;
+}
+
+.iconbg11 img {
+  width: 50px;
+  height: 50px;
+}
+
+.iconbg12 {
+  color: 
+white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 9px 0px 10px;
+  margin: 10px 38px 0px 40px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* BAGIAN 2 */
+* {
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+.body {
+  width: 100vw;
+}
+.container2 {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 8em;
+  padding: 0 40px;
+  font-weight: 700;
+}
+
+.icon .icon-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 4em;
+}
+
+.icon .icon-sub span {
+  font-size: 8em;
+  color: #039be5;
+}
+
+.icon .icon-sub a {
+  font-size: 15px;
+  color: #ff9800;
+}
+
+.icon .icon-sub a:hover {
+  color: #010101;
+}
+
+.text .text-ex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 3em;
+  font-weight: 700;
+  font-size: 38pt;
+}
+
+.text .text-ex .explore {
+  color: #039be5;
+}
+
+.text .text-ex .wisata {
+  color: #ff9800;
+}
+
+.text .text-ex .logo-360 img {
+  width: 145px;
+}
+
+.text .text-img img {
+  width: 80%;
+}
+
+.text .text-img {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* BAGIAN 3 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+ }
+
+/* h1{
+    color: blueviolet;
+    font-family: Lucida Sans;
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 10pt;
+    margin-bottom: 30px;
+} */
+
+/* h3{
+  font-size: 15pt;
+} */
+
+.button3{
+  color: white;
+  background-color: blueviolet;
+  margin-top: 20px;
+  border-color: transparent;
+  border-radius: 10%;
+  margin-left: 5px;
+  font-size: 12pt;
+}
+
+.button3:hover{
+  background-color: purple;  
+}
+
+.logo3{
+    width: 80px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container3{
+    max-width: 1280px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+.row3{
+  width: calc((1/2)*80%);
+  margin-bottom: 5%;
+  padding: 10px;
+}
+
+.judul3{
+    width: 100%;
+  }
+
+.gambar3{
+    width: 100%;
+    display: block; 
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5%;
+}
+.detail3{
+  margin-left: 2%;
+  margin-right: 0%;
+  font-size: 10pt;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+/* BAGIAN 4 */
+
+* {
+  padding: 2;
+  margin: 2;
+  box-sizing: border-box ;
+}
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 30px ;
+  scroll-padding-left: 15px;
+  color: 
+white;
+  font-style:normal;
+  background: 
+#4a4a8a;
+  display: flex ;
+
+}
+.footer div{ 
+  text-align: left;
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  font-weight: 400px;
+}
+.col-4{
+  flex-grow: 2;
+}
+.footer div h3{
+  text-align: left; 
+  font-weight:  px; 
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+.col-1{
+  letter-spacing: 10px;
+  row-gap: 20px;
+  margin-bottom: 30px;
+  height: 15px;
+}
+.col-2{
+  height: 38px;
+}
+.col-2 i {
+  font-size: 20px;
+  width: 40px;
+}
+.col-2 p {
+  display: block;
+  font-weight: normal;
+}
+button{
+  size: 50px;
+  color:
+#4a4a8a;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 10%;
+  border-color: transparent;
+  margin-bottom: 20px;
+}
+.sosmed{
+  margin-top: 2px;
+}
+.sosmed i{
+ font-size: 25px;
+ width: 38px;
+ height: 38px;
+ border-radius: 50%;
+text-align: left;
+}
